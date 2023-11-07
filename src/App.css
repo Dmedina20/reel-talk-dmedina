@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search-icon {
+  color: #6b7280;
+}
+body {
+  background-color: #222222;
+}
