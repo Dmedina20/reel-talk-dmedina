@@ -65,14 +65,18 @@ const Nav = () => {
 
       <div className="flex items-center gap-4">
         <div className="hidden lg:block px-4 py-1.5 rounded border border-neutral-800 flex items-center gap-2.5">
-          <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
-            Login
-          </button>
+          <Link to="/login">
+            <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
+              Login
+            </button>
+          </Link>
         </div>
         <div className="hidden lg:block px-4 py-1.5 bg-amber-400 rounded flex items-center gap-2.5">
-          <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
-            Signup
-          </button>
+          <Link to="/signup">
+            <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
+              Signup
+            </button>
+          </Link>
         </div>
         <div className="block lg:hidden px-4 py-1.5 bg-amber-400 rounded flex items-center gap-2.5">
           <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
