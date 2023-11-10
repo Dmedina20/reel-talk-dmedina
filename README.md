@@ -11,11 +11,14 @@
 
 ## Description
 
-Reel Talk, where movie and TV-show enthusiasts gather to share their passion for cinematic experiences! This repository contains the frontend code for the new-user onboarding stages of the Reel Talk front-end assessment web application project. The project is built using React.js, Redux, Typescript, Firebase, and Node.js, creating a seamless and engaging experience for users diving into the world of Reel Talk.
+Reel Talk, where movie and TV-show enthusiasts gather to share their passion for cinematic experiences! This repository contains the frontend code for the new-user onboarding stages of the Reel Talk front-end assessment web application project. The project is built using React.js, Redux, Firebase, and Node.js, creating a seamless and engaging experience for users diving into the world of Reel Talk.
 
 ## Technologies Used
 
-Provide a brief introduction to your project. What does it do? What problem does it solve?
+- React.js: A JavaScript library for building user interfaces based on components.
+- Redux: A JavaScript library for managing and centralizing application state.
+- Firebase: Provides a real-time database and authentication services, ensuring a secure and dynamic user experience.
+- Node.js: Empowers server-side functionality, contributing to the overall robustness of the application.
 
 ## Features
 
