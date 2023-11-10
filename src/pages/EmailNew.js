@@ -1,6 +1,6 @@
 import Signup from "../components/Sections/Authentication/Signup";
 
-export default function Home() {
+export default function EmailNew() {
   return (
     <>
       <Signup />

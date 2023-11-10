@@ -2,12 +2,27 @@ import React, { useState } from "react";
 import "../../App.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import { useDispatch, useSelector } from "react-redux";
+import { auth } from "../../firebase/firebase";
+import { logout } from "../../firebase/userSlice";
+import { signOut } from "firebase/auth";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenAvi, setIsOpenAvi] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+  const toggleAviMenu = () => {
+    setIsOpenAvi(!isOpenAvi);
+  };
+
+  const user = useSelector((state) => state.data.user.user);
+  const dispatch = useDispatch();
+  const handleLogout = () => {
+    dispatch(logout());
+    signOut(auth);
   };
 
   return (
@@ -63,26 +78,65 @@ const Nav = () => {
         />
       </div>
 
-      <div className="flex items-center gap-4">
-        <div className="hidden lg:block px-4 py-1.5 rounded border border-neutral-800 flex items-center gap-2.5">
-          <Link to="/login">
+      <div className="flex items-center mr-4 gap-4 ">
+        {user && (
+          <div
+            className="relative right-10 inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full bg-gray-500 cursor-pointer"
+            onClick={toggleAviMenu}
+          >
+            <span className="font-medium text-gray-300">
+              {user.username ? user.username.charAt(0).toUpperCase() : "U"}
+            </span>
+          </div>
+        )}
+
+        {isOpenAvi && user && (
+          <div className="fixed w-[200px] right-8 top-10 mt-7 bg-white border border-neutral-500">
+            <ul className="py-1">
+              {/* Dropdown menu items */}
+              <li>
+                <button className="block px-4 py-2 text-neutral-800 hover:bg-gray-100">
+                  Profile
+                </button>
+              </li>
+              <li>
+                <Link to="/">
+                  <button
+                    onClick={handleLogout}
+                    className="block px-4 py-2 text-reelRed hover:bg-gray-100 w-full text-left"
+                  >
+                    Logout
+                  </button>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        )}
+        {!user && (
+          <div className="hidden lg:block px-4 py-1.5 rounded border border-neutral-800 flex items-center gap-2.5">
+            <Link to="/login">
+              <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
+                Login
+              </button>
+            </Link>
+          </div>
+        )}
+        {!user && (
+          <div className="hidden lg:block px-4 py-1.5 bg-amber-400 rounded flex items-center gap-2.5">
+            <Link to="/signup">
+              <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
+                Signup
+              </button>
+            </Link>
+          </div>
+        )}
+        {!user && (
+          <div className="block lg:hidden px-4 py-1.5 bg-amber-400 rounded flex items-center gap-2.5">
             <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
-              Login
+              Get started
             </button>
-          </Link>
-        </div>
-        <div className="hidden lg:block px-4 py-1.5 bg-amber-400 rounded flex items-center gap-2.5">
-          <Link to="/signup">
-            <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
-              Signup
-            </button>
-          </Link>
-        </div>
-        <div className="block lg:hidden px-4 py-1.5 bg-amber-400 rounded flex items-center gap-2.5">
-          <button className="text-neutral-800 text-base font-semibold font-['Avenir Next'] tracking-tight">
-            Get started
-          </button>
-        </div>
+          </div>
+        )}
 
         <div className="lg:hidden relative">
           <button className="text-black p-2" onClick={toggleMenu}>

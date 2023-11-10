@@ -72,19 +72,6 @@ const Authentication = () => {
             </Link>
           </span>
         </div>
-        <div className="flex-col justify-start items-center gap-16 flex">
-          <div className="flex-col justify-start items-center gap-10 flex">
-            <div className="justify-start items-start gap-8 inline-flex">
-              <div className="justify-start items-start flex">
-                <button className="hover:bg-reelRed w-64 h-12 p-2.5 rounded-lg border-2 border-white border-opacity-90 justify-center items-center gap-2.5 flex">
-                  <div className=" text-center text-white text-opacity-90 text-base font-semibold font-['Avenir Next'] tracking-tight">
-                    Cancel
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

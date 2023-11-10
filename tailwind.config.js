@@ -164,7 +164,7 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
       reelOrange: "#FFA724",
-      reelRed: "c70000",
+      reelRed: "#c70000",
     }),
     columns: {
       auto: "auto",

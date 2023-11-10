@@ -8,25 +8,30 @@ const Creation = () => {
   return (
     <div className="w-screen h-screen px-[496px] bg-neutral-800 justify-center items-center inline-flex">
       <div className="self-stretch py-12 flex-col justify-start items-center gap-14 inline-flex">
-        <div className="justify-start items-center inline-flex">
-          <div className="w-5 h-5 relative">
-            <div className="w-5 h-5 left-0 top-0 absolute bg-amber-400 rounded-full" />
-            <div className="w-3 h-3 left-[4px] top-[4px] absolute bg-white bg-opacity-60 rounded-full" />
+        {/* Progress Bar */}
+        <div className="w-11/12 lg:w-2/6 mx-auto">
+          <div className="bg-reelOrange h-1 flex items-center justify-between">
+            {/* Progress Section */}
+            <div className="w-1/3 reelOrange h-1 flex items-center">
+              <div className="bg-reelOrange h-6 w-6 rounded-full shadow flex items-center justify-center">
+                <div className="h-3 w-3 bg-white rounded-full" />{" "}
+              </div>
+            </div>
+
+            <div className="w-1/3 flex justify-between bg-reelOrange h-1 items-center relative">
+              <div className="bg-reelOrange h-6 w-6 rounded-full shadow flex items-center justify-center -ml-2"></div>
+              <div className="bg-reelOrange h-6 w-6 rounded-full shadow flex items-center justify-center -mr-3 relative">
+                <div className="h-3 w-3 bg-reelOrange rounded-full" />{" "}
+              </div>
+            </div>
+
+            <div className="w-1/3 flex justify-end">
+              <div className="bg-reelOrange h-6 w-6 rounded-full shadow" />
+            </div>
+            {/* Progress Section */}
           </div>
-          <div className="w-5 h-5 relative">
-            <div className="w-5 h-5 left-0 top-0 absolute bg-neutral-500 rounded-full" />
-          </div>
-          <div className="w-5 h-5 relative">
-            <div className="w-5 h-5 left-0 top-0 absolute bg-neutral-500 rounded-full" />
-          </div>
-          <div className="w-5 h-5 relative">
-            <div className="w-5 h-5 left-0 top-0 absolute bg-neutral-500 rounded-full" />
-          </div>
-          <div className="w-5 h-5 relative">
-            <div className="w-5 h-5 left-0 top-0 absolute bg-neutral-500 rounded-full" />
-          </div>
-          <div className="w-5 h-5 relative" />
         </div>
+        {/* Progress Bar End */}
         <div className="flex-col justify-start items-center gap-14 flex">
           <div className="flex-col justify-start items-center gap-14 flex">
             <div className="flex-col justify-start items-center gap-4 flex">
@@ -98,7 +103,7 @@ const Creation = () => {
             <div className="justify-start items-start gap-8 inline-flex">
               <div className="justify-start items-start flex">
                 <Link to="/">
-                  <button className="w-64 h-12 p-2.5 rounded-lg border-2 border-white border-opacity-90 justify-center items-center gap-2.5 flex">
+                  <button className="hover:bg-reelRed w-64 h-12 p-2.5 rounded-lg border-2 border-white border-opacity-90 justify-center items-center gap-2.5 flex">
                     <div className="text-center text-white text-opacity-90 text-base font-semibold font-['Avenir Next'] tracking-tight">
                       Cancel
                     </div>
