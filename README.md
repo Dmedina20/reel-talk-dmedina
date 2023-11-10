@@ -1,6 +1,6 @@
 # Reel Talk Frontend - New User Onboarding
 
-[Live Demo](reel-talk-dmedina20.netlify.app)
+[Live Demo](https://reel-talk-dmedina20.netlify.app)
 
 ## Table of Contents
 
