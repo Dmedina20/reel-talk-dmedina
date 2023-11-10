@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Reel Talk Frontend - New User Onboarding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Description](#description)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Reel Talk, where movie and TV-show enthusiasts gather to share their passion for cinematic experiences! This repository contains the frontend code for the new-user onboarding stages of the Reel Talk front-end assessment web application project. The project is built using React.js, Redux, Typescript, Firebase, and Node.js, creating a seamless and engaging experience for users diving into the world of Reel Talk.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Provide a brief introduction to your project. What does it do? What problem does it solve?
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Genre Selection:
+   Users can choose their top 5 genres for movies and TV shows. The intuitive interface makes it easy for users to explore and pick their favorite genres.
 
-### `npm run build`
+2. Show More:
+   Explore a vast array of genres with the "Show More" button, allowing users to discover additional options beyond the initial selection.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Search Functionality:
+   A powerful search feature enables users to quickly find their preferred genres by typing in keywords. The results dynamically update, providing a responsive and efficient user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Progress Bar:
+   A visually appealing progress bar guides users through the onboarding process, ensuring they are aware of their current status and what remains to be completed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Navigation Buttons:
+   Easy navigation with "Back" and "Next" buttons. The "Next" button adapts its appearance based on user interaction, providing a smooth transition to the next onboarding stage.
 
-### `npm run eject`
+6. Responsive Design:
+   The frontend is designed to be responsive, ensuring a consistent and enjoyable experience across various devices and screen sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the project locally, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone this repository using `git clone https://github.com/Dmedina20/reel-talk-dmedina.git`
+2. Install dependencies using `npm install`.
+3. Run the development server with `npm start`.

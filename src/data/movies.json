@@ -1,32 +1,122 @@
 [
   {
+    "name": "Your Name",
+    "date": "(2016)",
     "image": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-04-18-at-1-03-20-pm-643ecd6628f9d.png"
   },
   {
-    "image": "https://thesmartlocal.jp/wp-content/uploads/2020/03/Top-Anime-Movies-21.jpg"
+    "name": "Sprited Away",
+    "date": "(2001)",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
   },
   {
+    "name": "Scream",
+    "date": "(2022)",
     "image": "https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
   },
   {
-    "image": "https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    "name": "Mr. Robot",
+    "date": "(2015)",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTUbX9OUWWaRt_oC1WVLlgotPEGc57SAjqkkdMNiysI5shasvg9"
   },
   {
+    "name": "Princess Mononoke",
+    "date": "(1997)",
     "image": "https://m.media-amazon.com/images/M/MV5BNTZkYmI0MmEtNGFlZC00OWZjLWFjMmItMjk1OWZkOWJiZGVjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
   },
   {
-    "image": "https://m.media-amazon.com/images/I/41QST6DYNDL._AC_UF1000,1000_QL80_.jpg"
+    "name": "Squid Game",
+    "date": "(2021)",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-IzQZViMaCt9Ufe97-6mRCmPs3T6GYEcFFNIytkzTWUpHCbht"
   },
   {
-    "image": ""
+    "name": "Howl's Moving Castle",
+    "date": "(2004)",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_yj7TE6j_4V0Egyj33xOQGFnxJEi7ZSvy-ehDWD2TYBbzpz1u"
   },
   {
-    "image": ""
+    "name": "Black Knight",
+    "date": "(2023)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNC4YyniyVENznL1U4q6r7_DAtBcIWhvkf0wv9iw6rrKx8kIUh"
   },
   {
-    "image": ""
+    "name": "Weathering with You",
+    "date": "(2019)",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfiDnbbGZmmZfAnbjsU_AKKAsRfa4VmskkCWbhrmrYqnVtZWq2"
   },
   {
-    "image": ""
+    "name": "Breaking Bad",
+    "date": "(2008)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUOnXKnRL0jeo6y4_Nzt0RggJHYbxI_RjJUgCvmdG28BAwpAx"
+  },
+  {
+    "name": "The Super Mario Bros. Movie",
+    "date": "(2023)",
+    "image": "https://dx35vtwkllhj9.cloudfront.net/universalstudios/super-mario-bros/images/regions/us/onesheet.jpg"
+  },
+  {
+    "name": "The Walking Dead",
+    "date": "(2010)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpiX6QwgIOQkRv1NBQZL7x9b7t6QZiMiV83v4o-TIxBeA91CB"
+  },
+  {
+    "name": "The Batman",
+    "date": "(2022)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJApnr9b8RCQjrOr0YpzqMTY1xXWNrfWHgq0VvNxVNUaG9XyrV"
+  },
+  {
+    "name": "Blue Lock",
+    "date": "(2022)",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwgSYjwQw9emH9C-cjovzO1Sqm_UpSZL_8eY4o_yLr3QmroH7k"
+  },
+  {
+    "name": "Limitless",
+    "date": "(2011)",
+    "image": "https://m.media-amazon.com/images/M/MV5BYmViZGM0MGItZTdiYi00ZDU4LWIxNDYtNTc1NWQ5Njc2N2YwXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
+  },
+  {
+    "name": "The Mandalorian",
+    "date": "(2019)",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTE5IGVtPm4r5jG-dlf9tQ2Ymc8wu-CgsiaVu2M9VL4_3s0XJd8"
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "date": "(2011)",
+    "image": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
+  },
+  {
+    "name": "The Godfather",
+    "date": "(1972)",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6EAZYpFPv-j-msWE7uFUueby2qiH_lz67ryBOJ41kg4nKHJ6y"
+  },
+  {
+    "name": "Loki",
+    "date": "(2021)",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHel80alzgYyna6UG8WpsVmyg-rM5f_zl5Ta_UnAHzIFA4nb6l"
+  },
+  {
+    "name": "Scarface",
+    "date": "(1983)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6Py6zIThAfLViyfCFHT-yfMZ7gFY0imj8WBddOUQfZzAWDYh"
+  },
+  {
+    "name": "Arcane",
+    "date": "(2021)",
+    "image": "https://preview.redd.it/drd9eqknks481.jpg?width=640&crop=smart&auto=webp&s=4334da16e516bf2e4b120ef3fe9070116c2696e7"
+  },
+  {
+    "name": "Forrest Gump",
+    "date": "(1994)",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSC1pmwVs3b9KW0IT4ivccOXPYRQbAH2VpOWLwSumVqwAnJ1u8G"
+  },
+  {
+    "name": "Fight Club",
+    "date": "(1999)",
+    "image": "https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+  },
+  {
+    "name": "Star Wars: Episode V - The Empire Strikes Back",
+    "date": "(1980)",
+    "image": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   }
 ]

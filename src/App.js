@@ -6,6 +6,10 @@ import EmailNew from "./pages/EmailNew";
 import Create from "./pages/Create";
 import Nav from "./components/Navigation/Nav";
 import Birthday from "./pages/Birthday";
+import TopGenres from "./pages/TopGenres";
+import TopMovies from "./pages/TopMovies";
+import TheEnd from "./pages/TheEnd";
+import Start from "./pages/Start";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { auth } from "./firebase/firebase";
@@ -47,7 +51,11 @@ function App() {
       ) : (
         <Routes>
           {" "}
+          <Route path="/" element={<Start />} />{" "}
+          <Route path="/end" element={<TheEnd />} />{" "}
           <Route path="/birth" element={<Birthday />} />{" "}
+          <Route path="/genres" element={<TopGenres />} /> \
+          <Route path="/movies" element={<TopMovies />} />{" "}
         </Routes>
       )}
     </>

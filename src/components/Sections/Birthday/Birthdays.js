@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../../App.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { auth } from "../../../firebase/firebase";
@@ -82,11 +83,7 @@ const Birthdays = () => {
               </div>
               <div className="w-[488px] px-1 py-2 justify-start items-start gap-3 inline-flex">
                 {movieData.slice(0, itemsToShow).map((movie) => (
-                  <MoviePoster
-                    key={movie.poster}
-                    image={movie.image}
-                    ingredients={movie.name}
-                  />
+                  <MoviePoster key={movie.poster} image={movie.image} />
                 ))}
               </div>
             </div>
@@ -105,21 +102,23 @@ const Birthdays = () => {
               </Link>
             </div>
             <div className="justify-start items-start flex">
-              <button
-                className={`w-64 h-12 p-2.5 ${
-                  birthdate
-                    ? "bg-reelOrange "
-                    : "bg-neutral-500 cursor-not-allowed"
-                } rounded-lg justify-center items-center gap-2.5 flex`}
-              >
-                <div
-                  className={`text-center text-black ${
-                    birthdate ? "text-opacity-90" : "text-opacity-40"
-                  } text-base font-semibold font-['Avenir Next'] tracking-tight`}
+              <Link to="/genres">
+                <button
+                  className={`w-64 h-12 p-2.5 ${
+                    birthdate
+                      ? "bg-reelOrange "
+                      : "bg-neutral-500 cursor-not-allowed"
+                  } rounded-lg justify-center items-center gap-2.5 flex`}
                 >
-                  Next
-                </div>
-              </button>
+                  <div
+                    className={`text-center text-black ${
+                      birthdate ? "text-opacity-90" : "text-opacity-40"
+                    } text-base font-semibold font-['Avenir Next'] tracking-tight`}
+                  >
+                    Next
+                  </div>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
